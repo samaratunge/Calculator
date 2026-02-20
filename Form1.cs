@@ -19,7 +19,11 @@ namespace WinFormsApp1
             number2 = Double.Parse(this.no2.Text);
             this.result.Text = calculator.calculate(operation, number1, number2).ToString();
         }
-
+        /// <summary>
+        /// /Minus button click event handler. It will call the calculate method of the calculator class and pass the operation, number1 and number2 as parameters and display the result in the result textbox
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
             string operation = "-";
