@@ -12,6 +12,11 @@ namespace WinFormsApp1
             calculator = new Calculator();
         }
 
+        /// <summary>
+        /// modified 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             string operation = "+";
