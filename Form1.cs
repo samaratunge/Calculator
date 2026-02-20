@@ -13,7 +13,7 @@ namespace WinFormsApp1
         }
 
         /// <summary>
-        /// modified 
+        /// Add plus operation
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
