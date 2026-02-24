@@ -52,5 +52,10 @@ namespace WinFormsApp1
             number2 = Double.Parse(this.no2.Text);
             this.result.Text = calculator.calculate(operation, number1, number2).ToString();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
